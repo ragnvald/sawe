@@ -17,10 +17,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>919705.02901387645397335</xmin>
-            <ymin>-379426.16474130417918786</ymin>
-            <xmax>1060130.88986044423654675</xmax>
-            <ymax>-290824.13349287444725633</ymax>
+            <xmin>-75961.57172147883102298</xmin>
+            <ymin>4686727.3850603811442852</ymin>
+            <xmax>71615.91747133404714987</xmax>
+            <ymax>4783104.52085976861417294</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -43,6 +43,7 @@
             <layer_coordinate_transform destAuthId="EPSG:32636" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="default20141114144349207"/>
             <layer_coordinate_transform destAuthId="EPSG:32636" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="serengeti20141113110417998"/>
             <layer_coordinate_transform destAuthId="EPSG:32636" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="serengeti20141113101844301"/>
+            <layer_coordinate_transform destAuthId="EPSG:32636" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20141114223216212"/>
             <layer_coordinate_transform destAuthId="EPSG:32636" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="inon_1_2_n20141113110418058"/>
             <layer_coordinate_transform destAuthId="EPSG:32636" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20141113110740703"/>
         </layer_coordinate_transform_info>
