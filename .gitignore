@@ -213,3 +213,18 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+*.dbf
+*.prj
+*.shp
+*.cpg
+*.shx
+*.qpj
+*.gdbtablx
+*.atx
+*.gdbtable
+*.gdbindexes
+*.freelist
+*.spx
+*.sbn
+*.sbx
+*.osm
