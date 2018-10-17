@@ -36,7 +36,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="Yes"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-10-18T00:12:21"
+#!   LAST_SAVE_DATE="2018-10-18T00:24:53"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -54,7 +54,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-3325.38 726.035"
+#!   VIEW_POSITION="1650.7 -1784.26"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="73"
@@ -2892,7 +2892,7 @@
 #! />
 #! <COMMENT
 #!   IDENTIFIER="102"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:11px; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11px;&quot;&gt;Landflate legges inn her&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11px;&quot;&gt;Country polygon&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   POSITION="-2981.96 -2814"
 #!   TOP_LEFT="-2981.96 -2814"
 #!   BOTTOM_RIGHT="-2511.96 -2878"
@@ -2932,6 +2932,20 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="42"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="144"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:7pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Wilderness is what is left when encroachment has been removed. This part collects the land area and deletes the established encroachment areas.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4834.3580479640414 -2439.1166629707391"
+#!   TOP_LEFT="4834.3580479640414 -2439.1166629707391"
+#!   BOTTOM_RIGHT="5650.7414389212381 -2594.117912983239"
+#!   BOUNDING_RECT="4834.3580479640414 -2439.1166629707391 816.38339095719675 155.00125001250012"
+#!   ORDER="500000000000015"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.78431372549019607,0.19607843137254902"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="130"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -2951,7 +2965,7 @@
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="129"
-#!   NAME="Create wilderness layers"
+#!   NAME="Establish encroachment areas"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="313 241"
 #!   ORDER="500000000000000"
@@ -2960,6 +2974,19 @@
 #!   STICKY="true"
 #!   COLOUR="0.52156862745098043,0.46666666666666667,0.73725490196078436"
 #!   CONTENTS="112 44 71 85 95 114 113 111 19 76 86 18 37 68 100 106 87 30 33 105 108 107 103 28 42 46 77 41 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="130"
+#!   NAME="Wilderness areas (what are left is not encroachment areas)"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="4383.331190804005 -2756.21"
+#!   ORDER="500000000000014"
+#!   BOTTOM_RIGHT="6081.2888891012244 -3808.8914351314224"
+#!   BOUNDING_RECT="4383.331190804005 -2756.21 1697.9576982972194 1052.6814351314224"
+#!   STICKY="true"
+#!   COLOUR="0.81568627450980391,0.43529411764705883,0.58431372549019611"
+#!   CONTENTS="161 132 65 131 157 162 120 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -3194,8 +3221,8 @@
 #!   IDENTIFIER="59"
 #!   TYPE="GeographicAreaCalculator"
 #!   VERSION="1"
-#!   POSITION="5585.8599999999997 -2156.21"
-#!   BOUNDING_RECT="5585.8599999999997 -2156.21 0 0"
+#!   POSITION="5986.5489383962331 -1998.6741780664383"
+#!   BOUNDING_RECT="5986.5489383962331 -1998.6741780664383 0 0"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3516,7 +3543,7 @@
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18520"
+#!   LAST_PARM_EDIT="18552"
 #! >
 #!     <OUTPUT_FEAT NAME="AREA"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -3530,7 +3557,7 @@
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DIS_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="Aggressive"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="Extreme"/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE=""/>
@@ -3612,8 +3639,8 @@
 #!   IDENTIFIER="65"
 #!   TYPE="AttributeRemover"
 #!   VERSION="0"
-#!   POSITION="4362.0907615383849 -2619.2551617823879"
-#!   BOUNDING_RECT="4362.0907615383849 -2619.2551617823879 0 0"
+#!   POSITION="5375.7995287630429 -2890.1828424681507"
+#!   BOUNDING_RECT="5375.7995287630429 -2890.1828424681507 0 0"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4265,8 +4292,8 @@
 #!   IDENTIFIER="157"
 #!   TYPE="AreaOnAreaOverlayer"
 #!   VERSION="7"
-#!   POSITION="2705.0270502705025 -3129.2602618333876"
-#!   BOUNDING_RECT="2705.0270502705025 -3129.2602618333876 -1 -1"
+#!   POSITION="4615.1777739695208 -2866.21"
+#!   BOUNDING_RECT="4615.1777739695208 -2866.21 -1 -1"
 #!   ORDER="500000000000003"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4287,7 +4314,7 @@
 #!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="None"/>
 #!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="First Wins"/>
 #!     <XFORM_PARM PARM_NAME="DEAGGREGATE_INPUT" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="Moderate"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="Aggressive"/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="GRP_BY" PARM_VALUE=""/>
@@ -4303,8 +4330,8 @@
 #!   IDENTIFIER="161"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="3669.6520811361956 -3284.2618118488881"
-#!   BOUNDING_RECT="3669.6520811361956 -3284.2618118488881 -1 -1"
+#!   POSITION="4615.1777739695208 -3313.8494488211491"
+#!   BOUNDING_RECT="4615.1777739695208 -3313.8494488211491 -1 -1"
 #!   ORDER="500000000000006"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4338,39 +4365,11 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter_5"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="171"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="6130.0093000930001 -1252.4986499864997"
-#!   BOUNDING_RECT="6130.0093000930001 -1252.4986499864997 -1 -1"
-#!   ORDER="500000000000012"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18552"
-#! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Dissolver_4_Area"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="131"
 #!   TYPE="AttributeCreator"
 #!   VERSION="5"
-#!   POSITION="4680.0467999680041 -3185.0318553185025"
-#!   BOUNDING_RECT="4680.0467999680041 -3185.0318553185025 0 0"
+#!   POSITION="5375.7995287630429 -3313.8494488211491"
+#!   BOUNDING_RECT="5375.7995287630429 -3313.8494488211491 0 0"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4608,17 +4607,6 @@
 #!   TARGET_PORT_DESC="fi 0 AREA"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="172"
-#!   SOURCE_NODE="92"
-#!   TARGET_NODE="171"
-#!   SOURCE_PORT_DESC="fo 0 AREA"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="2"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -6133,21 +6121,21 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME railway_VectorSetterUpper    INPUT FEAT
 # Note that we don't call the ThinPointCloud function directly, but rather
 # do it through TCL. This should allow this transformer to be used with a
 # Desktop license, even though ThinPointCloud requires Professional.
-Tcl2 proc railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325231_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME railway___PointCloudThinner    INPUT FEATURE_TYPE railway___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325231_thinPointCloud")       fme_color "1,0,0"
-Tcl2 proc railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325231_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME railway_RasterSetterUpper    INPUT FEATURE_TYPE railway___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325231_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+Tcl2 proc railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325235_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME railway___PointCloudThinner    INPUT FEATURE_TYPE railway___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325235_thinPointCloud")       fme_color "1,0,0"
+Tcl2 proc railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325235_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME railway_RasterSetterUpper    INPUT FEATURE_TYPE railway___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325235_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-# railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325231_VIS_FEAT_TYPE changes the feature types
+# railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325235_VIS_FEAT_TYPE changes the feature types
 # of the features being visualized.
-DEFAULT_MACRO railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325231_VIS_FEAT_TYPE railway$(CATMAC)
+DEFAULT_MACRO railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325235_VIS_FEAT_TYPE railway$(CATMAC)
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME railway_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325231_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * RecorderFactory    FACTORY_NAME railway_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(railway_c6c327b0_5516_4fb2_ab2b_0f3f90b9325235_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "B_0-1000_n INPUT Input Collector"   INPUT FEATURE_TYPE AttributeRemover_3_OUTPUT_0_ckJ2aPcsQQs=   INPUT FEATURE_TYPE AttributeRemover_4_OUTPUT   INPUT FEATURE_TYPE AttributeRemover_5_OUTPUT   INPUT FEATURE_TYPE AttributeRemover_6_OUTPUT   OUTPUT FEATURE_TYPE B_0-1000_n_INPUT
 MACRO GeographicBufferer_WORKSPACE_NAME B_0-1000_n
@@ -6161,7 +6149,7 @@ INCLUDE_BUILTIN_CUSTOM_TRANSFORMER_VER GeographicBufferer:2
 FACTORY_DEF * TeeFactory   FACTORY_NAME "B_0-1000_n OUTPUT Output Renamer/Nuker"   INPUT FEATURE_TYPE B_0-1000_n_OUTPUT   OUTPUT FEATURE_TYPE B_0-1000_n_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "B_0-1000_n <REJECTED> Output Renamer/Nuker"   INPUT FEATURE_TYPE B_0-1000_n_<REJECTED>
 # -------------------------------------------------------------------------
-FACTORY_DEF * TransformFact:11:Dissolver    FACTORY_NAME Dissolver_2    FACTORY_META_PARAMS    TRANSFORMER_NAME:Dissolver_2    TRANSFORMER_PARAMS:XFORMER_NAME,Dissolver_2,TRANSFORMER_GROUP,,GROUP_BY,,PARAMETERS_GROUP,,DIS_ATTR,,ATTR_ACCUM_GROUP,,ACCUM_INPUT_ATTRS,No,SUM,,AV,,WEIGHT,,LIST_NAME,,PARAMETERS_GROUP_ADVANCED,,NO_OVRLP,No    MULTI_PROCESS "AGGRESSIVE"    GROUPS_ARE_ORDERED No INPUT  FEATURE_TYPE B_0-1000_n_OUTPUT    OUTPUT AREA FEATURE_TYPE Dissolver_2_AREA
+FACTORY_DEF * TransformFact:11:Dissolver    FACTORY_NAME Dissolver_2    FACTORY_META_PARAMS    TRANSFORMER_NAME:Dissolver_2    TRANSFORMER_PARAMS:XFORMER_NAME,Dissolver_2,TRANSFORMER_GROUP,,GROUP_BY,,PARAMETERS_GROUP,,DIS_ATTR,,ATTR_ACCUM_GROUP,,ACCUM_INPUT_ATTRS,No,SUM,,AV,,WEIGHT,,LIST_NAME,,PARAMETERS_GROUP_ADVANCED,,NO_OVRLP,No    MULTI_PROCESS "EXTREME"    GROUPS_ARE_ORDERED No INPUT  FEATURE_TYPE B_0-1000_n_OUTPUT    OUTPUT AREA FEATURE_TYPE Dissolver_2_AREA
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Dissolver_2 AREA Splitter"   INPUT FEATURE_TYPE Dissolver_2_AREA   OUTPUT FEATURE_TYPE Dissolver_2_AREA_0_spj0EUP0+Zc=   OUTPUT FEATURE_TYPE Dissolver_2_AREA_1_f/sO+LKyGg4=   OUTPUT FEATURE_TYPE Dissolver_2_AREA_2_Tw5ykrrSe1E=
 # -------------------------------------------------------------------------
 FACTORY_DEF * AttrSetFactory FACTORY_NAME AttributeCreator ATTRSET_PROPAGATE_MISSING YES INPUT  FEATURE_TYPE Dissolver_2_AREA_2_Tw5ykrrSe1E= ATTR wzone n    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT 
@@ -6223,20 +6211,7 @@ INCLUDE [    set macroLine "MACRO AttributeRemover_LIST_EXP ";    foreach attr [
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeRemover    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    INPUT  FEATURE_TYPE Diss_2_AREA    OUTPUT { FEATURE_TYPE AttributeRemover_OUTPUT        @RemoveAttributes(id,zoomlevel,secretkey,addedtime,navn,epost,anonym,godkjent,_clipped,_fme_no_clipper)        @RemoveAttributes(fme_regexp_match"$(AttributeRemover_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF * TransformFact:11:Dissolver    FACTORY_NAME Dissolver_4    FACTORY_META_PARAMS    TRANSFORMER_NAME:Dissolver_4    TRANSFORMER_PARAMS:XFORMER_NAME,Dissolver_4,TRANSFORMER_GROUP,,GROUP_BY,wzone,PARAMETERS_GROUP,,DIS_ATTR,,ATTR_ACCUM_GROUP,,ACCUM_INPUT_ATTRS,No,SUM,,AV,,WEIGHT,,LIST_NAME,,PARAMETERS_GROUP_ADVANCED,,NO_OVRLP,No    PROCESS_GROUP_BY wzone    MULTI_PROCESS "AGGRESSIVE"    GROUPS_ARE_ORDERED No INPUT  FEATURE_TYPE AttributeRemover_OUTPUT    OUTPUT AREA FEATURE_TYPE Dissolver_4_AREA
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Dissolver_4 AREA Splitter"   INPUT FEATURE_TYPE Dissolver_4_AREA   OUTPUT FEATURE_TYPE Dissolver_4_AREA_0_A6Fsap3FpzY=   OUTPUT FEATURE_TYPE Dissolver_4_AREA_1_20gOOKcx7Tg=   OUTPUT FEATURE_TYPE Dissolver_4_AREA_2_8NnHkJ0piZ0=
-# -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Dissolver_4_Area} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME Dissolver_4_Area_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Dissolver_4_AREA_2_8NnHkJ0piZ0=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { Dissolver_4_Area }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Dissolver_4_Area_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA wzone,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Dissolver_4 AREA Splitter"   INPUT FEATURE_TYPE Dissolver_4_AREA   OUTPUT FEATURE_TYPE Dissolver_4_AREA_0_A6Fsap3FpzY=   OUTPUT FEATURE_TYPE Dissolver_4_AREA_1_20gOOKcx7Tg=
 # -------------------------------------------------------------------------
 Lookup AttributeFilter_4_AttributeFilterLut   TZA ok   "" notok   ENCODED
 FACTORY_DEF * TestFactory    FACTORY_NAME AttributeFilter_4    INPUT  FEATURE_TYPE ne_10m_admin_0_countries_SHAPE_1    TEST @Lookup(AttributeFilter_4_AttributeFilterLut,SOV_A3,ENCODED_ATTR) == "ok"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(SET_FROM_ATTR, SOV_A3, AttributeFilter_4)    OUTPUT FAILED FEATURE_TYPE AttributeFilter_4_<NULL>
@@ -6251,7 +6226,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_4 <UNFILTERED> Transfor
 INCLUDE [    set macroLine "MACRO AttributeRemover_7_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeRemover_7    INPUT  FEATURE_TYPE AttributeFilter_4_TZA    OUTPUT { FEATURE_TYPE AttributeRemover_7_OUTPUT        @RemoveAttributes(fme_encoded,ABBREV,ABBREV_LEN,ADM0_A3,ADM0_A3_IS,ADM0_A3_UN,ADM0_A3_US,ADM0_A3_WB,ADM0_DIF,ADMIN,BRK_A3,BRK_DIFF,BRK_GROUP,BRK_NAME,CONTINENT,ECONOMY,featurecla,FIPS_10_,FORMAL_EN,FORMAL_FR,GDP_MD_EST,GDP_YEAR,GEOU_DIF,GEOUNIT,GU_A3,HOMEPART,INCOME_GRP,ISO_A2,ISO_A3,ISO_N3,LABELRANK,LASTCENSUS,LEVEL,LONG_LEN,MAPCOLOR7,MAPCOLOR8,MAPCOLOR9,MAPCOLOR13,NAME,NAME_ALT,NAME_LEN,NAME_LONG,NAME_SORT,NOTE_ADM0,NOTE_BRK,POP_EST,POP_YEAR,POSTAL,REGION_UN,REGION_WB,scalerank,SOV_A3,SOVEREIGNT,SU_A3,SU_DIF,SUBREGION,SUBUNIT,TINY,TYPE,UN_A3,WB_A2,WB_A3,WIKIPEDIA,WOE_ID,WOE_ID_EH,WOE_NOTE)        @RemoveAttributes(fme_pcre_match"$(AttributeRemover_7_LIST_EXP)")         }
 # -------------------------------------------------------------------------
-FACTORY_DEF * TransformFact:7:AreaOnAreaOverlayer    FACTORY_NAME AreaOnAreaOverlayer    FACTORY_META_PARAMS    TRANSFORMER_NAME:AreaOnAreaOverlayer    TRANSFORMER_PARAMS:XFORMER_NAME,AreaOnAreaOverlayer,TRANSFORMER_GROUP,,PARAMETERS_GROUP,,GRP_BY,,CLEANING_TOLERANCE,None,CONNECT_Z_MODE,First<space>Wins,DEAGGREGATE_INPUT,Yes,OVC_ATTR,_overlaps,ATTR_ACCUM_GROUP,,ACCUM_ATTRS_NAME,Use<space>Attributes<space>From<space>One<space>Feature,GENERATE_LIST_GROUP,NO,LIST_NAME,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE_MODE,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE,<lt>Unused<gt>    MULTI_PROCESS "MODERATE"    GROUPS_ARE_ORDERED No INPUT AREA FEATURE_TYPE Dissolver_4_AREA_1_20gOOKcx7Tg= INPUT AREA FEATURE_TYPE AttributeRemover_7_OUTPUT    OUTPUT AREA FEATURE_TYPE AreaOnAreaOverlayer_AREA
+FACTORY_DEF * TransformFact:7:AreaOnAreaOverlayer    FACTORY_NAME AreaOnAreaOverlayer    FACTORY_META_PARAMS    TRANSFORMER_NAME:AreaOnAreaOverlayer    TRANSFORMER_PARAMS:XFORMER_NAME,AreaOnAreaOverlayer,TRANSFORMER_GROUP,,PARAMETERS_GROUP,,GRP_BY,,CLEANING_TOLERANCE,None,CONNECT_Z_MODE,First<space>Wins,DEAGGREGATE_INPUT,Yes,OVC_ATTR,_overlaps,ATTR_ACCUM_GROUP,,ACCUM_ATTRS_NAME,Use<space>Attributes<space>From<space>One<space>Feature,GENERATE_LIST_GROUP,NO,LIST_NAME,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE_MODE,<lt>Unused<gt>,LIST_ATTRS_TO_INCLUDE,<lt>Unused<gt>    MULTI_PROCESS "AGGRESSIVE"    GROUPS_ARE_ORDERED No INPUT AREA FEATURE_TYPE Dissolver_4_AREA_1_20gOOKcx7Tg= INPUT AREA FEATURE_TYPE AttributeRemover_7_OUTPUT    OUTPUT AREA FEATURE_TYPE AreaOnAreaOverlayer_AREA
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter_5    INPUT  FEATURE_TYPE AreaOnAreaOverlayer_AREA    OUTPUT FEATURE_TYPE AttributeFilter_5_FILTER
 FACTORY_DEF * AttributeFilterFactory FACTORY_NAME AttributeFilter_5_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_5_FILTER FILTER_ATTRIBUTE _overlaps FILTER_VALUES <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> 1 OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_5_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_5_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_5_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_5_<lt>UNFILTERED<gt> OUTPUT 1 FEATURE_TYPE AttributeFilter_5_1
@@ -6296,21 +6271,21 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations_VectorSetterUppe
 # Note that we don't call the ThinPointCloud function directly, but rather
 # do it through TCL. This should allow this transformer to be used with a
 # Desktop license, even though ThinPointCloud requires Professional.
-Tcl2 proc Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6831_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations___PointCloudThinner    INPUT FEATURE_TYPE Result_of_calculations___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6831_thinPointCloud")       fme_color "1,1,0.498039"
-Tcl2 proc Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6831_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations_RasterSetterUpper    INPUT FEATURE_TYPE Result_of_calculations___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6831_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+Tcl2 proc Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6835_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations___PointCloudThinner    INPUT FEATURE_TYPE Result_of_calculations___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6835_thinPointCloud")       fme_color "1,1,0.498039"
+Tcl2 proc Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6835_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations_RasterSetterUpper    INPUT FEATURE_TYPE Result_of_calculations___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6835_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-# Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6831_VIS_FEAT_TYPE changes the feature types
+# Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6835_VIS_FEAT_TYPE changes the feature types
 # of the features being visualized.
-DEFAULT_MACRO Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6831_VIS_FEAT_TYPE Result_of_calculations$(CATMAC)
+DEFAULT_MACRO Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6835_VIS_FEAT_TYPE Result_of_calculations$(CATMAC)
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Result_of_calculations_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6831_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA wzone,varchar<openparen>255<closeparen>,area_km2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Result_of_calculations_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(Result_of_calculations_4b4bee0d_b86c_4991_b35c_4587962baa6835_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA wzone,varchar<openparen>255<closeparen>,area_km2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC GeographicAreaCalculator_BUFFERED_1_w4ujr/sAX6c= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,4,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>wilderness<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
