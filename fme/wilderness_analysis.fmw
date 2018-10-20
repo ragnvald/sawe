@@ -2,13 +2,13 @@
 #! <WORKSPACE
 #    Command-line to run this workspace:
 #        "C:\Program Files\FME\fme.exe" C:\code\sawe\fme\wilderness_analysis.fmw
-#              --SourceDataset_SHAPE "../data_in/global/osm/ne_10m_admin_0_countries.shp"
+#              --SourceDataset_SHAPE "C:\code\sawe\data_in\global\osm\ne_10m_admin_0_countries.shp"
 #              --DestDataset_GEOPACKAGE "../data_out/wilderness_database.gpkg"
-#              --SourceDataset_ESRISHAPE_8 "../data_in/osm/gis_osm_railways_free_1.shp"
-#              --SourceDataset_ESRISHAPE_9 "../data_in/osm/gis_osm_waterways_free_1.shp"
-#              --SourceDataset_ESRISHAPE_7 "../data_in/osm/gis_osm_landuse_a_free_1.shp"
-#              --SourceDataset_ESRISHAPE_6 "../data_in/osm/gis_osm_roads_free_1.shp"
-#              --SourceDataset_ESRISHAPE "../data_in/osm/gis_osm_water_a_free_1.shp"
+#              --SourceDataset_ESRISHAPE_8 "C:\code\sawe\data_in\osm\gis_osm_railways_free_1.shp"
+#              --SourceDataset_ESRISHAPE_9 "C:\code\sawe\data_in\osm\gis_osm_waterways_free_1.shp"
+#              --SourceDataset_ESRISHAPE_7 "C:\code\sawe\data_in\osm\gis_osm_landuse_a_free_1.shp"
+#              --SourceDataset_ESRISHAPE_6 "C:\code\sawe\data_in\osm\gis_osm_roads_free_1.shp"
+#              --SourceDataset_ESRISHAPE "C:\code\sawe\data_in\osm\gis_osm_water_a_free_1.shp"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -33,7 +33,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="Yes"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.3 (20180926 - Build 18552 - WIN64)"
-#!   LAST_SAVE_DATE="2018-10-19T21:55:54"
+#!   LAST_SAVE_DATE="2018-10-20T11:56:52"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -51,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-3286.26 -217.393"
+#!   VIEW_POSITION="4673.96 -2025.38"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="69"
@@ -1828,7 +1828,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_SHAPE Shape_Files(*.shp)|*.shp|Compressed_Shape_Files(*.shz)|*.shz|All_Files(*)|* Source Esri Shape File(s):"
-#!   DEFAULT_VALUE="../data_in/global/osm/ne_10m_admin_0_countries.shp"
+#!   DEFAULT_VALUE="C:\code\sawe\data_in\global\osm\ne_10m_admin_0_countries.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -1838,27 +1838,27 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE_8 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="../data_in/osm/gis_osm_railways_free_1.shp"
+#!   DEFAULT_VALUE="C:\code\sawe\data_in\osm\gis_osm_railways_free_1.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE_9 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="../data_in/osm/gis_osm_waterways_free_1.shp"
+#!   DEFAULT_VALUE="C:\code\sawe\data_in\osm\gis_osm_waterways_free_1.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE_7 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="../data_in/osm/gis_osm_landuse_a_free_1.shp"
+#!   DEFAULT_VALUE="C:\code\sawe\data_in\osm\gis_osm_landuse_a_free_1.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE_6 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="../data_in/osm/gis_osm_roads_free_1.shp"
+#!   DEFAULT_VALUE="C:\code\sawe\data_in\osm\gis_osm_roads_free_1.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="../data_in/osm/gis_osm_water_a_free_1.shp"
+#!   DEFAULT_VALUE="C:\code\sawe\data_in\osm\gis_osm_water_a_free_1.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -2632,8 +2632,8 @@
 #!   IDENTIFIER="65"
 #!   TYPE="AttributeRemover"
 #!   VERSION="0"
-#!   POSITION="6201.0898276472199 -2673.0212866976931"
-#!   BOUNDING_RECT="6201.0898276472199 -2673.0212866976931 0 0"
+#!   POSITION="6201.0898276472199 -2611.4264678509544"
+#!   BOUNDING_RECT="6201.0898276472199 -2611.4264678509544 0 0"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3257,8 +3257,8 @@
 #!   IDENTIFIER="157"
 #!   TYPE="AreaOnAreaOverlayer"
 #!   VERSION="7"
-#!   POSITION="5440.4680728536978 -2649.0484442295424"
-#!   BOUNDING_RECT="5440.4680728536978 -2649.0484442295424 -1 -1"
+#!   POSITION="5440.4680728536978 -2562.0910529164989"
+#!   BOUNDING_RECT="5440.4680728536978 -2562.0910529164989 -1 -1"
 #!   ORDER="500000000000003"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3295,8 +3295,8 @@
 #!   IDENTIFIER="161"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="5440.4680728536978 -3096.6878930506914"
-#!   BOUNDING_RECT="5440.4680728536978 -3096.6878930506914 -1 -1"
+#!   POSITION="5440.4680728536978 -3009.7305017376475"
+#!   BOUNDING_RECT="5440.4680728536978 -3009.7305017376475 -1 -1"
 #!   ORDER="500000000000006"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3357,8 +3357,8 @@
 #!   IDENTIFIER="167"
 #!   TYPE="AreaOnAreaOverlayer"
 #!   VERSION="7"
-#!   POSITION="6945.5784617758563 -4005.3105140630978"
-#!   BOUNDING_RECT="6945.5784617758563 -4005.3105140630978 -1 -1"
+#!   POSITION="7013.4610423506901 -4005.3105140630978"
+#!   BOUNDING_RECT="7013.4610423506901 -4005.3105140630978 -1 -1"
 #!   ORDER="500000000000003"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3397,8 +3397,8 @@
 #!   IDENTIFIER="170"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="7038.8236148169954 -4513.2253063228045"
-#!   BOUNDING_RECT="7038.8236148169954 -4513.2253063228045 430 71"
+#!   POSITION="7013.4610423506901 -4452.6570361050672"
+#!   BOUNDING_RECT="7013.4610423506901 -4452.6570361050672 430 71"
 #!   ORDER="500000000000006"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -3478,8 +3478,8 @@
 #!   IDENTIFIER="168"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="7637.1377748865207 -4550.4841013322412"
-#!   BOUNDING_RECT="7637.1377748865207 -4550.4841013322412 -1 -1"
+#!   POSITION="7807.4293328745644 -4452.6570361050672"
+#!   BOUNDING_RECT="7807.4293328745644 -4452.6570361050672 -1 -1"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3504,8 +3504,8 @@
 #!   IDENTIFIER="177"
 #!   TYPE="AttributeRemover"
 #!   VERSION="0"
-#!   POSITION="7750.5725369493812 -4185.3105140630978"
-#!   BOUNDING_RECT="7750.5725369493812 -4185.3105140630978 0 0"
+#!   POSITION="7807.4293328745644 -4005.3105140630978"
+#!   BOUNDING_RECT="7807.4293328745644 -4005.3105140630978 0 0"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -4302,19 +4302,19 @@
 
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_SHAPE_1,SHAPE_IN_SIMPLE_DONUT_GEOMETRY_SHAPE_1,SHAPE_IN_ENCODING_SHAPE_1,SHAPE_IN_EXPOSE_ATTRS_GROUP_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MINX_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MINY_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MAXX_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_MAXY_SHAPE_1,SHAPE_IN_CLIP_TO_ENVELOPE_SHAPE_1,SHAPE_IN_NETWORK_AUTHENTICATION_SHAPE_1,SHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPE_1,_MEASURES_AS_Z_SHAPE_1,SHAPE_IN_DISSOLVE_HOLES_SHAPE_1,SHAPE_IN_REPORT_BAD_GEOMETRY_SHAPE_1,SHAPE_IN_TRIM_PRECEDING_SPACES_SHAPE_1,SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,SourceDataset_ESRISHAPE_2,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_2,ESRISHAPE_IN_ENCODING_ESRISHAPE_2,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_2,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_2,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_2,ESRISHAPE_IN_ADVANCED_ESRISHAPE_2,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_2,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_2,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_2,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_2,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_2,SourceDataset_ESRISHAPE_3,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_3,ESRISHAPE_IN_ENCODING_ESRISHAPE_3,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_3,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_3,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_3,ESRISHAPE_IN_ADVANCED_ESRISHAPE_3,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_3,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_3,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_3,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_3,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_3,SourceDataset_ESRISHAPE_4,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_4,ESRISHAPE_IN_ENCODING_ESRISHAPE_4,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_4,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_4,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_4,ESRISHAPE_IN_ADVANCED_ESRISHAPE_4,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_4,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_4,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_4,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_4,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_4,SourceDataset_ESRISHAPE_5,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_5,ESRISHAPE_IN_ENCODING_ESRISHAPE_5,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_5,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_5,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_5,ESRISHAPE_IN_ADVANCED_ESRISHAPE_5,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_5,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_5,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_5,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_5,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_5,DestDataset_GEOPACKAGE_1,GEOPACKAGE_OUT_FME_CONNECTION_GROUP_GEOPACKAGE_1,GEOPACKAGE_OUT_OVERWRITE_DATASET_GEOPACKAGE_1,GEOPACKAGE_OUT_DATASET_TEMPLATE_GEOPACKAGE_1,GEOPACKAGE_OUT_GEOPACKAGE_WRT_ADV_PARM_GEOPACKAGE_1,GEOPACKAGE_OUT_TRANSACTION_SIZE_GEOPACKAGE_1
-DEFAULT_MACRO SourceDataset_SHAPE ../data_in/global/osm/ne_10m_admin_0_countries.shp
+DEFAULT_MACRO SourceDataset_SHAPE C:\code\sawe\data_in\global\osm\ne_10m_admin_0_countries.shp
 GUI MULTIFILE SourceDataset_SHAPE Shape_Files(*.shp)|*.shp|Compressed_Shape_Files(*.shz)|*.shz|All_Files(*)|* Source Esri Shape File(s):
 DEFAULT_MACRO DestDataset_GEOPACKAGE ../data_out/wilderness_database.gpkg
 GUI FILENAME DestDataset_GEOPACKAGE GeoPackage_Files(*.gpkg)|*.gpkg|All_files(*)|* GeoPackage File:
-DEFAULT_MACRO SourceDataset_ESRISHAPE_8 ../data_in/osm/gis_osm_railways_free_1.shp
+DEFAULT_MACRO SourceDataset_ESRISHAPE_8 C:\code\sawe\data_in\osm\gis_osm_railways_free_1.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE_8 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
-DEFAULT_MACRO SourceDataset_ESRISHAPE_9 ../data_in/osm/gis_osm_waterways_free_1.shp
+DEFAULT_MACRO SourceDataset_ESRISHAPE_9 C:\code\sawe\data_in\osm\gis_osm_waterways_free_1.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE_9 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
-DEFAULT_MACRO SourceDataset_ESRISHAPE_7 ../data_in/osm/gis_osm_landuse_a_free_1.shp
+DEFAULT_MACRO SourceDataset_ESRISHAPE_7 C:\code\sawe\data_in\osm\gis_osm_landuse_a_free_1.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE_7 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
-DEFAULT_MACRO SourceDataset_ESRISHAPE_6 ../data_in/osm/gis_osm_roads_free_1.shp
+DEFAULT_MACRO SourceDataset_ESRISHAPE_6 C:\code\sawe\data_in\osm\gis_osm_roads_free_1.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE_6 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
-DEFAULT_MACRO SourceDataset_ESRISHAPE ../data_in/osm/gis_osm_water_a_free_1.shp
+DEFAULT_MACRO SourceDataset_ESRISHAPE C:\code\sawe\data_in\osm\gis_osm_water_a_free_1.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
 INCLUDE [ if {{$(SourceDataset_SHAPE)} == {}} { puts_real {Parameter 'SourceDataset_SHAPE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_GEOPACKAGE)} == {}} { puts_real {Parameter 'DestDataset_GEOPACKAGE' must be given a value.}; exit 1; }; ]
@@ -5447,21 +5447,21 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations_VectorSetterUppe
 # Note that we don't call the ThinPointCloud function directly, but rather
 # do it through TCL. This should allow this transformer to be used with a
 # Desktop license, even though ThinPointCloud requires Professional.
-Tcl2 proc Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf12_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations___PointCloudThinner    INPUT FEATURE_TYPE Result_of_calculations___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf12_thinPointCloud")       fme_color "1,1,0.498039"
-Tcl2 proc Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf12_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations_RasterSetterUpper    INPUT FEATURE_TYPE Result_of_calculations___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf12_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
+Tcl2 proc Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf17_thinPointCloud {} {    if {[string equal {NO_THINNING} {KEEPNPOINT}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {MAXNUMPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {FIRSTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }    elseif {[string equal {NO_THINNING} {LASTNPOINTS}]}    {       FME_Execute ThinPointCloud NO_THINNING "\"<Unused>\"";    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations___PointCloudThinner    INPUT FEATURE_TYPE Result_of_calculations___PointCloudFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf17_thinPointCloud")       fme_color "1,1,0.498039"
+Tcl2 proc Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf17_prepareRaster {subsetStartRow subsetNumRows subsetStartCol subsetNumCols} {    set useDI [string equal -nocase {$(FME_VIEWER_APP)} {fmedatainspector}];    if {!$useDI} {       FME_Execute ApplyRasterRotation BILINEAR;    };    set doResample [string equal {NoReduction} {Resample}];    set doSubset [string equal {NoReduction} {Subset}];    set doBounds [string equal {NoReduction} {BoundingBoxOnly}];    if {$doBounds}  {       FME_Execute GeometryType fme_polygon;    }    elseif {$doResample || $doSubset} {       set comment {          First, we need to prefix all the attributes. This is done because          we are going to call @RasterProperties, and we want to make sure          it doesn't overwrite any existing attributes.       };       set kAttrPrefix ".";       set allNames [FME_AttributeNames];       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $newName $oldName;       };       FME_Execute RasterProperties RASTER;       if {$doResample} {          set oldNumCols [FME_GetAttribute _num_columns];          set oldNumRows [FME_GetAttribute _num_rows];          set oldSpacingX [FME_GetAttribute _spacing_x];          set oldSpacingY [FME_GetAttribute _spacing_y];          set kMinNumCells 32;          set kMaxNumCells 512;          set comment {             We will only resample if both dimensions are greater than the             minimum num cells, and at least one is greater than the maximum.          };          if {$oldNumRows > $kMinNumCells && $oldNumCols > $kMinNumCells && ($oldNumRows > $kMaxNumCells || $oldNumCols > $kMaxNumCells)} {             set newSpacingX 1.0;             set newSpacingY 1.0;             if {$oldNumRows > $oldNumCols} {                set comment {                   If we have more rows than columns, we need to choose a spacing                   that reduces the number of rows to the maximum we've chosen.                };                set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMaxNumCells];                set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                set comment {                   Now we need to check if doing this will result in the columns                   going below the minimum. If so, choose the spacing such that                   we only go down to the minimum (and not past).                };                set newNumCols [expr $oldNumCols * $oldSpacingX / $newSpacingX];                if {$newNumCols < $kMinNumCells}                {                   set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMinNumCells];                   set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                };             }             else {                set comment {                   This is identical to the above case, except the roles of                   rows and cols are reversed.                };                set newSpacingX [expr 1.0 * $oldNumCols * $oldSpacingX / $kMaxNumCells];                set newSpacingY [expr 1.0 * $newSpacingX / $oldSpacingX * $oldSpacingY];                set newNumRows [expr $oldNumRows * $oldSpacingY / $newSpacingY];                if {$newNumRows < $kMinNumCells}                {                   set newSpacingY [expr 1.0 * $oldNumRows * $oldSpacingY / $kMinNumCells];                   set newSpacingX [expr 1.0 * $newSpacingY / $oldSpacingY * $oldSpacingX];                };             };             FME_Execute ResampleRaster CELL_SIZE $newSpacingX $newSpacingY NearestNeighbor;          };       }       elseif {$doSubset} {          set comment {             Get the value of some strings that may be attributes or constants.             Note that we pass in the attribute prefix we're using, because if             one does turn out to be an attribute, it won't actually be the exact             name in the string (since we renamed all our attributes above).          };          set rasterNumRows [FME_GetAttribute _num_rows];          set rasterNumCols [FME_GetAttribute _num_columns];          set comment {             Only do subsetting if the specified start position is actually             within the raster.          };          if {$subsetStartRow < $rasterNumRows && $subsetStartCol < $rasterNumCols}          {             set comment {                Now bound the subset to the size of the raster, so that                we don't create padding.             };             if {[expr $subsetStartRow + $subsetNumRows] > $rasterNumRows}             {                set subsetNumRows [expr $rasterNumRows - $subsetStartRow];             };             if {[expr $subsetStartCol + $subsetNumCols] > $rasterNumCols}             {                set subsetNumCols [expr $rasterNumCols - $subsetStartCol];             };             FME_Execute SubsetRaster $subsetStartRow $subsetNumRows $subsetStartCol $subsetNumCols;          };       };       set comment {          Remove all the attributes added by @RasterProperties and remove the          prefix from the real attributes. We assume they all start with an          underscore.       };       FME_Execute RemoveAttributes fme_regexp_match {^_};       foreach oldName $allNames {          set newName $kAttrPrefix;          append newName $oldName;          FME_RenameAttribute $oldName $newName;       };    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME Result_of_calculations_RasterSetterUpper    INPUT FEATURE_TYPE Result_of_calculations___RasterFeatures___    OUTPUT FEATURE_TYPE __viewme__       @Tcl2("Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf17_prepareRaster {<Unused>} {<Unused>} {<Unused>} {<Unused>}")
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-# Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf12_VIS_FEAT_TYPE changes the feature types
+# Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf17_VIS_FEAT_TYPE changes the feature types
 # of the features being visualized.
-DEFAULT_MACRO Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf12_VIS_FEAT_TYPE Result_of_calculations$(CATMAC)
+DEFAULT_MACRO Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf17_VIS_FEAT_TYPE Result_of_calculations$(CATMAC)
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Result_of_calculations_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf12_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA wzone,varchar<openparen>255<closeparen>,area_km2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Result_of_calculations_Recorder    INPUT FEATURE_TYPE __viewme__  _wb_termination_feature Yes @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__  @FeatureType($(Result_of_calculations_f3269481_d242_464c_9de9_3515500836bf17_VIS_FEAT_TYPE))    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA wzone,varchar<openparen>255<closeparen>,area_km2,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Tester_PASSED_1_8t6d0F2OYOU= TO GEOPACKAGE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>wilderness<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
