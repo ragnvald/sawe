@@ -3,7 +3,7 @@ sawe
 
 System for Analysis of Wildernes Encroachment
 
-This project contains of a collection of tools to support a nalysis of wilderness encroachment. The tools for analyzis are prepared using FME. Presentation files using QGIS are also available.
+This project contains of a collection of tools to support an alysis of wilderness encroachment. The tools for analysis are prepared using FME. Presentation files using QGIS are also available.
 
 Project files in FME and QGIS files have relative paths to sample files and it should thus be possible to clonev the project and get startet right away.
 
