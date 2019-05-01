@@ -7,7 +7,7 @@ This project contains of a collection of tools to support an alysis of wildernes
 
 Project files in FME and QGIS files have relative paths to sample files and it should thus be possible to clonev the project and get startet right away.
 
-Feel free to contact ragnvald@mindland.com for challenges in using the system and other questions.
+Feel free to contact ragnvald@mindland.com for queries related to using the system and setting it up.
 
 More information about this system and wilderness analysis in general is available here:
 
