@@ -11,7 +11,7 @@ Feel free to contact ragnvald@mindland.com for queries related to using the syst
 
 More information about this system and wilderness analysis in general is available here:
 
-- [Wilderness analysis website](http://www.mindland.com/wp/projects/wilderness-analysis/
+- [Wilderness analysis website](http://www.mindland.com/projects/wilderness-analysis/
  "Wilderness analysis website")
 
 Copyright
